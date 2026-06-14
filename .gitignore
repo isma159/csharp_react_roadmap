@@ -1,10 +1,13 @@
-#C#
-bin/
-obj/
+# C#
+**/bin/
+**/obj/
 *.user
 
+# Rider
+**/.idea/
+
 # Secrets
-appsettings.json
+**/appsettings.json
 .env
 
 # OS
