@@ -1,0 +1,12 @@
+#C#
+bin/
+obj/
+*.user
+
+# Secrets
+appsettings.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+@PomodoroTimer_HostAddress = http://localhost:5269
+
+GET {{PomodoroTimer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
