@@ -1,0 +1,29 @@
+GET http://localhost:5093/api/Notes
+
+###
+
+POST http://localhost:5093/api/Notes
+Content-Type: application/json
+
+{
+    "title": "MY FIRST NOTE",
+    "content": "HELLO WORLD!"
+}
+
+###
+
+GET http://localhost:5093/api/Notes/2
+
+###
+
+PUT http://localhost:5093/api/Notes/1
+Content-Type: application/json
+
+{
+  "title": "this sucks",
+  "content": "my disappointment is immeasurable and my day is ruined."
+}
+
+###
+
+DELETE http://localhost:5093/api/Notes/1

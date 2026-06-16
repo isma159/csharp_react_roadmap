@@ -5,6 +5,8 @@
 
 # Rider
 **/.idea/
+**/node_modules/
+**/dist/
 
 # Secrets
 **/appsettings.json
