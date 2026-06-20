@@ -1,0 +1,46 @@
+**Backgrounds**
+```
+#070a12   App background (outermost)
+#0a0e17   Input/textarea background (darkest panel)
+#111622   Card/container background
+#171e2c   Sidebar item background (default)
+```
+
+**Borders**
+```
+#1d263b   Default border
+#202a3d   Input/panel border
+#2D3748   Hover border (default elements)
+#4A5568   Hover border (lighter, secondary)
+#2d3b54   Input hover border
+```
+
+**Accent (Teal/Cyan — primary)**
+```
+#00d4ec   Primary accent / focus border / primary button
+#00b8cc   Primary button hover
+#0097a7   Primary button active
+```
+
+**Selected/Active State**
+```
+#0b1a26   Selected item background
+#005b66   Selected item border
+#00a2b1   Selected item text
+#102636   Selected item hover background
+#007380   Selected item hover border
+#00c2d6   Selected item hover text
+```
+
+**Text**
+```
+#ffffff   Primary text (white)
+#E2E8F0   Secondary text (slate-200)
+#475569   Muted/meta text (slate-600) — e.g. dates, labels
+```
+
+**Destructive (Delete/Discard)**
+```
+#f87171   Destructive text/border (red-400)
+#1e2738   Destructive hover background
+```

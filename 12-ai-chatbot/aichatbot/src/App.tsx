@@ -2,6 +2,8 @@ import './index.css'
 import {Input} from "./components/ui/input.tsx";
 import {useState} from "react";
 import remarkBreaks from "remark-breaks";
+import remarkGfm from "remark-gfm";
+import remarkEmoji from "remark-emoji";
 
 import angleUp from "./assets/angle-up.svg";
 import angleDown from "./assets/angle-down.svg";
@@ -135,11 +137,11 @@ function ChatBubble({message}: {message: Message}) {
                         </button>
                     </div>
                     {!hidden && <div className="prose prose-invert prose-sm max-w-100">
-                        <ReactMarkdown remarkPlugins={[remarkBreaks]}>{message.thinkingProcess}</ReactMarkdown>
+                        <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm, remarkEmoji]}>{message.thinkingProcess}</ReactMarkdown>
                     </div>}
                 </div>}
                 <div className="prose prose-invert prose-sm">
-                    <ReactMarkdown remarkPlugins={[remarkBreaks]}>{message.content}</ReactMarkdown>
+                    <ReactMarkdown remarkPlugins={[remarkBreaks, remarkGfm, remarkEmoji]}>{message.content}</ReactMarkdown>
                 </div>
             </div>
         </div>
